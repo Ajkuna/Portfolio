@@ -324,6 +324,116 @@ section {
 }
 
 
+/* ------------------- contacts styling -----------------------*/
+.total-contacts {
+  overflow: hidden;
+  max-height: 70vh;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+.contacts ul {
+  position: relative;
+  display: flex;
+  transform-style: preserve-3d;
+  transform: rotate(-25deg) skew(25deg);
+  padding-bottom: 8.5vh;
+  margin-left: -4.7vh;
+}
+
+.contacts ul li {
+  position: relative;
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  margin: 0 15px;
+}
+
+.contacts ul li:before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  width: 100%;
+  height: 14px;
+  background: #2a2a2a;
+  transform-origin: top;
+  transform: skewX(-41deg);
+}
+.contacts ul li:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -14px;
+  width: 14px;
+  height: 100%;
+  background: #3e3e3e;
+  transform-origin: right;
+  transform: skewY(-49deg);
+}
+
+.contacts ul li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 30px !important;
+  transition: 0.2s;
+}
+
+.contacts ul li:hover span {
+  z-index: 1000;
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.contacts ul li:hover span:nth-child(5) {
+  transform: translate(40px, -40px);
+  opacity: 1;
+}
+.contacts ul li:hover span:nth-child(4) {
+  transform: translate(30px, -30px);
+  opacity: 0.8;
+}
+.contacts ul li:hover span:nth-child(3) {
+  transform: translate(20px, -20px);
+  opacity: 0.6;
+}
+.contacts ul li:hover span:nth-child(2) {
+  transform: translate(10px, -10px);
+  opacity: 0.4;
+}
+.contacts ul li:hover span:nth-child(1) {
+  transform: translate(0px, 0px);
+  opacity: 0.2;
+}
+
+/* Gmail */
+.contacts ul li:nth-child(1):hover span {
+  background: #B23121;
+}
+/* Resume */
+.contacts ul li:nth-child(2):hover span {
+  background: #55acee;
+}
+/* Github */
+.contacts ul li:nth-child(3):hover span {
+  background: #111111;
+}
 
 
 
