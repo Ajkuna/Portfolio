@@ -33,8 +33,9 @@ html {
 
 .navbar.sticky {
   padding: 15px;
-  background: crimson;
+  background:rgb(202, 56, 255);
 }
+
 
 .navbar .max-width {
   display: flex;
@@ -49,7 +50,7 @@ html {
 }
 
 .navbar .logo a span {
-  color: crimson;
+  color:rgb(202, 56, 255);
   transition: all 0.3s ease;
 }
 
@@ -72,7 +73,7 @@ html {
 }
 
 .navbar .menu li a:hover {
-  color: crimson;
+  color:rgb(202, 56, 255);
 }
 
 .navbar.sticky .menu li a:hover {
@@ -94,7 +95,7 @@ html {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background:rgb(202, 56, 255);
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -120,7 +121,7 @@ html {
 /* --------------------- home section styling -------------------------*/
 .home {
   display: flex;
-  background-image: url("banner.jpg");
+  background-image: url("wallpaperflare\ 3.jpg");
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -149,22 +150,22 @@ html {
 
 }
 .home .home-content .text-3 span {
-  color: crimson;
+  color:rgb(202, 56, 255);
   font-weight: 500;
 }
 .home .home-content a{
   display: inline-block;
-  background: crimson;
+  background:rgb(202, 56, 255);
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 8px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(202, 56, 255);
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: crimson;
+  color:rgb(202, 56, 255);
   background: none;
 }
 
@@ -206,7 +207,7 @@ section {
   bottom: -13px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color:rgb(202, 56, 255);
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -239,25 +240,25 @@ section {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: crimson;
+  color:rgb(202, 56, 255);
 }
 .about .about-content .right p {
   text-align: justify;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: crimson;
+  background:rgb(202, 56, 255);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 8px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(202, 56, 255);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: crimson;
+  color:rgb(202, 56, 255);
   background: none;
 }
 
@@ -284,22 +285,19 @@ section {
   bottom: -13px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color:rgb(202, 56, 255);
   padding: 5px;
   background: #222;
   transform: translateX(-50%);;
 }
 
 .projects .carousel .card {
-  background: rgb(64, 52, 52);
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.projects .carousel .card:hover {
-  background: crimson;
+  background: rgb(69, 69, 69);
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 470px;
 }
 
 .projects .carousel .card .box {
@@ -313,8 +311,19 @@ section {
   transform: scale(1.05);
 }
 
+.projects .carousel .card .box .tags li {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(201, 201, 201);
+  list-style: none;
+  display: inline-block;
+  border: 1px solid rgb(130, 130, 130);
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
 .projects .carousel .card .text {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
@@ -323,12 +332,29 @@ section {
   height: 150px;
   width: 150px;
   object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid crimson;
+  border-radius: 0;
   transition: all 0.3s ease;
 }
-.projects .carousel .card:hover img {
-  border-color: #fff;
+
+
+.projects .carousel .card .box .code,
+.projects .carousel .card .box .demo {
+  cursor: pointer;
+  display: inline-flex;
+  background: rgb(202, 56, 255);
+  color: #fff;
+  font-size: 15px;
+  padding: 12px 14px;
+  margin: 30px 20px 0 20px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+.projects .carousel .card .box .code:hover,
+.projects .carousel .card .box .demo:hover {
+  background: #fff;
+  color: rgb(202, 56, 255);
+  border: 2px rgb(202, 56, 255);
 }
 
 .owl-dots {
@@ -341,7 +367,7 @@ section {
   margin: 0 5px;
   outline: none!important;
   border-radius: 50%;
-  border: 2px solid crimson!important;
+  border: 2px solid rgb(202, 56, 255)!important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -349,8 +375,10 @@ section {
   border-radius: 14px;
 }
 .owl-dot.active, .owl-dot:hover {
-  background: crimson!important;
+  background:rgb(202, 56, 255)!important;
 }
+
+
 
 
 /* ------------------- contacts styling -----------------------*/
@@ -386,7 +414,7 @@ section {
   bottom: -13px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color:rgb(202, 56, 255);
   padding: 5px;
   background: #222;
   transform: translateX(-50%);;
@@ -429,7 +457,7 @@ section {
   left: 0;
   width: 100%;
   height: 16px;
-  background: #403232;
+  background: #3d3240;
   transform-origin: top;
   transform: skewX(-41deg);
 }
@@ -441,7 +469,7 @@ section {
   left: -14px;
   width: 14px;
   height: 99%;
-  background: #7b6363;
+  background: #77637b;
   transform-origin: right;
   transform: skewY(-49deg);
 }
@@ -457,7 +485,7 @@ section {
   align-items: center;
   background: #333;
   color: rgba(255, 255, 255, 0.2);
-  font-size: 30px !important;
+  font-size: 35px !important;
   transition: 0.2s;
 }
 
@@ -506,19 +534,23 @@ section {
 
 
 /* ------------------- footer section styling -----------------------*/
-footer {
+
+.footer {
   background: #111;
-  padding: 20px 23px;
   color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem 0;
 }
-footer span a {
-  color: crimson;
+.footer .title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color:rgb(202, 56, 255);
   text-decoration: none;
 }
-footer span a:hover {
+.footer .title:hover {
   text-decoration: underline;
 }
-
 
 
 
@@ -533,6 +565,13 @@ footer span a:hover {
   .home .max-width {
     margin-left: 0px;
   }
+  .projects .carousel .card {
+    height: 450px;
+  }
+  .projects .carousel .card .box .code,
+  .projects .carousel .card .box .demo {
+    margin: 10px 5px 0 5px;
+  }
 }
 
 @media (max-width: 1104px) {
@@ -540,11 +579,25 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  .projects .carousel .card {
+    height: 480px;
+  }
+  .projects .carousel .card .box .code,
+  .projects .carousel .card .box .demo {
+    margin: 10px 5px 0 5px;
+  }
 }
 
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
+  }
+  .projects .carousel .card {
+    height: 390px;
+  }
+  .projects .carousel .card .box .code,
+  .projects .carousel .card .box .demo {
+    margin: 10px 20px 0 20px;
   }
 }
 
@@ -606,7 +659,14 @@ footer span a:hover {
   }
   .about .about-content .right {
     flex: 100%;
+  }
 
+  .projects .carousel .card {
+    height: 450px;
+  }
+  .projects .carousel .card .box .code,
+  .projects .carousel .card .box .demo {
+    margin: 10px 15px 0 15px;
   }
 
   
@@ -625,6 +685,13 @@ footer span a:hover {
   .home .home-content a {
     font-size: 20px;
   }
+  .projects .carousel .card {
+    height: 470px;
+  }
+  .projects .carousel .card .box .code,
+  .projects .carousel .card .box .demo {
+    margin: 10px 4px 0 4px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -633,5 +700,9 @@ footer span a:hover {
   }
   .home .home-content .text-3 {
     font-size: 27px;
+  }
+
+  .projects .carousel .card {
+    height: 430px;
   }
 }
