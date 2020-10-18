@@ -32,7 +32,7 @@ html {
 }
 
 .navbar.sticky {
-  padding: 15px;
+  padding: 12px;
   background:rgb(202, 56, 255);
 }
 
@@ -235,7 +235,7 @@ section {
   width: 55%;
 }
 .about .about-content .right .text {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -292,7 +292,7 @@ section {
 }
 
 .projects .carousel .card {
-  background: rgb(69, 69, 69);
+  background: rgb(66, 45, 68);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -314,10 +314,10 @@ section {
 .projects .carousel .card .box .tags li {
   font-size: 12px;
   font-weight: 500;
-  color: rgb(201, 201, 201);
+  color: rgb(234, 166, 255);
   list-style: none;
   display: inline-block;
-  border: 1px solid rgb(130, 130, 130);
+  border: 1px solid rgb(200, 110, 206);
   padding: 2px;
   margin-bottom: 10px;
 }
