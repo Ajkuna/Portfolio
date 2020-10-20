@@ -64,4 +64,28 @@ $(document).ready(function() {
     }
   });
 
+
+  // copy email to clipboard on click
+  const email = document.querySelector(".email .emailText");
+
+  email.onclick = function() {
+    document.execCommand("copy");
+  }
+
+  email.addEventListener("copy", function(event) {
+    event.preventDefault();
+    if (event.clipboardData) {
+      event.clipboardData.setData("text/plain", email.textContent);
+      console.log(event.clipboardData.getData("text"))
+    }
+  });
+
+
+  // 'copied' popup on the button above
+  $('.email').click(function() {
+    $('.popup')
+    .toggleClass("show")
+    .delay(1000).fadeOut();
+  })
+
 });

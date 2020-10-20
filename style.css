@@ -551,6 +551,51 @@ section {
 .footer .title:hover {
   text-decoration: underline;
 }
+.footer .email {
+  position: relative;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 300;
+  color: rgb(129, 108, 130);
+}
+.footer .email:hover {
+  text-decoration: underline;
+}
+
+/* Email button popup */
+.footer .email .popup {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  color: green;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+.footer .email .popup::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid;
+  border-color: #fff transparent transparent transparent;
+  opacity: 0.8;
+}
+
+.footer .email .popup.show {
+  visibility: visible;
+  transition: ease-out 1s;
+  
+}
 
 
 
