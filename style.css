@@ -225,10 +225,11 @@ section {
 }
 
 .about .about-content .left img {
-  height: 400px;
-  width: 400px;
+  /* height: 400px; */
+  width: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 6px;
+  margin-left: -50px;
 }
 
 .about .about-content .right {
@@ -292,7 +293,7 @@ section {
 }
 
 .projects .carousel .card {
-  background: rgb(66, 45, 68);
+  background: rgb(95, 61, 101);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;

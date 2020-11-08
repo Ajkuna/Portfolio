@@ -28,14 +28,14 @@ $(document).ready(function() {
 
   // typing aniamtion script
   var typed = new Typed(".typing", {
-    strings: ["Developer", "Student", "Designer"],
+    strings: ["Developer", "Student", "Designer", "Engineer"],
     typeSpeed: 80,
     backSpeed: 60,
     loop: true
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Developer", "Student", "Designer"],
+    strings: ["Developer", "Student", "Designer", "Engineer"],
     typeSpeed: 80,
     backSpeed: 60,
     loop: true
